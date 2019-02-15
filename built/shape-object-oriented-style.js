@@ -1,4 +1,3 @@
-"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -12,13 +11,13 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var Shape = (function () {
+var Shape = /** @class */ (function () {
     function Shape() {
     }
     return Shape;
 }());
 ;
-var Circle = (function (_super) {
+var Circle = /** @class */ (function (_super) {
     __extends(Circle, _super);
     function Circle(radius) {
         var _this = _super.call(this) || this;
@@ -30,7 +29,7 @@ var Circle = (function (_super) {
     };
     return Circle;
 }(Shape));
-var Rectangle = (function (_super) {
+var Rectangle = /** @class */ (function (_super) {
     __extends(Rectangle, _super);
     function Rectangle(w, h) {
         var _this = _super.call(this) || this;
@@ -43,7 +42,7 @@ var Rectangle = (function (_super) {
     };
     return Rectangle;
 }(Shape));
-var Square = (function (_super) {
+var Square = /** @class */ (function (_super) {
     __extends(Square, _super);
     function Square(size) {
         var _this = _super.call(this) || this;
@@ -57,4 +56,3 @@ var Square = (function (_super) {
 }(Shape));
 var shape = new Circle(10);
 var area = shape.getArea();
-//# sourceMappingURL=shape-object-oriented-style.js.map

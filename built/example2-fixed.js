@@ -1,4 +1,3 @@
-"use strict";
 function countLines2(text) {
     var count = 0;
     if (text) {
@@ -14,4 +13,3 @@ function countLines2(text) {
 var a2 = countLines2(['one', 'two', 'three']);
 var b2 = countLines2(['hello', null, 'world']);
 var c2 = countLines2();
-//# sourceMappingURL=example2-fixed.js.map

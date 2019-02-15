@@ -1,4 +1,3 @@
-"use strict";
 function assertNever(obj) {
     throw new Error('Unexpected object');
 }
@@ -12,7 +11,7 @@ function getArea(shape) {
             return Math.pow(shape.size, 2);
     }
     assertNever(shape);
+    // throw new Error('Invalid shape');
 }
 var shape2 = { kind: "circle", radius: 10 };
 var area2 = getArea(shape2);
-//# sourceMappingURL=shape-functional-style.js.map

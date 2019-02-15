@@ -1,5 +1,4 @@
-"use strict";
-var Student = (function () {
+var Student = /** @class */ (function () {
     function Student(firstName, middleInitial, lastName) {
         this.firstName = firstName;
         this.middleInitial = middleInitial;
@@ -13,4 +12,3 @@ function greeter(person) {
 }
 var user = new Student("Jane", "M.", "User");
 document.body.innerHTML = greeter(user);
-//# sourceMappingURL=greeter.js.map
