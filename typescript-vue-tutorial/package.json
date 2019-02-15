@@ -1,0 +1,24 @@
+{
+  "name": "typescript-vue-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3",
+    "vue": "^2.6.6",
+    "vue-loader": "^15.6.2",
+    "vue-template-compiler": "^2.6.6",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}
