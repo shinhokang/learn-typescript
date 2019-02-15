@@ -5,12 +5,12 @@ class Student {
     }
 }
 
-interface Person {
+interface abc {
     firstName: string;
     lastName: string;
 }
 
-function greeter(person: Person) {
+function greeter(person: abc) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
 
