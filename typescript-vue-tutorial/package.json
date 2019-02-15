@@ -16,7 +16,9 @@
     "ts-loader": "^5.3.3",
     "typescript": "^3.3.3",
     "vue": "^2.6.6",
+    "vue-class-component": "^6.3.2",
     "vue-loader": "^15.6.2",
+    "vue-property-decorator": "^7.3.0",
     "vue-template-compiler": "^2.6.6",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
