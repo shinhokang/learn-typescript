@@ -1,3 +1,4 @@
+"use strict";
 function sortByName(a) {
     var result = a.slice(0);
     result.sort(function (x, y) {
@@ -6,3 +7,4 @@ function sortByName(a) {
     return result;
 }
 sortByName([]);
+//# sourceMappingURL=example.js.map
